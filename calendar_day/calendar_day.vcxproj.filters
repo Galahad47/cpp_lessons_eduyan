@@ -15,16 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="check.cpp">
+    <ClCompile Include="calendar_day.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\calendar_day\calendar_day.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\calendar_day\calendar_day.vcxproj" />
-    <None Include="..\calendar_day\calendar_day.vcxproj.filters" />
-    <None Include="..\calendar_day\calendar_day.vcxproj.user" />
   </ItemGroup>
 </Project>

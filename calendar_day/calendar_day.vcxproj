@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{99245ff3-f2e7-4751-af73-c015c8918b03}</ProjectGuid>
-    <RootNamespace>check</RootNamespace>
+    <ProjectGuid>{791d3726-67a4-4036-bd89-62e454d35b82}</ProjectGuid>
+    <RootNamespace>calendarday</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\calendar_day\calendar_day.cpp" />
-    <ClCompile Include="check.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\calendar_day\calendar_day.vcxproj" />
-    <None Include="..\calendar_day\calendar_day.vcxproj.filters" />
-    <None Include="..\calendar_day\calendar_day.vcxproj.user" />
+    <ClCompile Include="calendar_day.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
